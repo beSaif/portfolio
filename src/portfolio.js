@@ -1,19 +1,19 @@
 const header = {
   // all the properties are optional - can be left empty or deleted
   homepage: 'https://rajshekhar26.github.io/cleanfolio',
-  title: 'JS.',
+  title: 'Saif.',
 }
 
 const about = {
   // all the properties are optional - can be left empty or deleted
-  name: 'John Smith',
-  role: 'Front End Engineer',
+  name: 'Saif',
+  role: 'Full Stack Flutter Developer',
   description:
-    'Adipisicing sit fugit ullam unde aliquid sequi Facilis soluta facilis perspiciatis corporis nulla aspernatur. Autem eligendi rerum delectus modi quisquam? Illo ut quasi nemo ipsa cumque perspiciatis! Maiores minima consectetur.',
+    '3+ years in Flutter and Dart | 4 Interships | 35+ Projects ',
   resume: 'https://example.com',
   social: {
-    linkedin: 'https://linkedin.com',
-    github: 'https://github.com',
+    linkedin: 'https://linkedin.com/beSaif',
+    github: 'https://github.com/beSaif',
   },
 }
 
@@ -21,51 +21,72 @@ const projects = [
   // projects can be added an removed
   // if there are no projects, Projects section won't show up
   {
-    name: 'Project 1',
+    name: 'ment-Ai',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
+      'AI model embedded in Flutter App to predict user sentiment based on pictures',
+    stack: ['tflite', 'camera', 'GetX'],
     sourceCode: 'https://github.com',
     livePreview: 'https://github.com',
   },
   {
-    name: 'Project 2',
+    name: 'Adhanminima',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      'Minimalistic Adhan App for Muslims to get notified at prayer times.',
+    stack: ['tflite', 'camera', 'React'],
+    sourceCode: 'https://github.com/beSaif/adhanminima',
+    // livePreview: 'https://github.com',
+    playStore: 'https://play.google.com/store/apps/details?id=in.codesaif.adhaan'
   },
   {
-    name: 'Project 3',
+    name: 'todoSaif',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      'A minimalistic to-do app. Your tasks will be synced and accessible across all your devices.',
+    stack: ['sqflite', 'sharedpref', 'Firebase'],
+    sourceCode: 'https://github.com/beSaif/todosaif',
+    livePreview: 'https://besaif.github.io/todosaifweb/',
+    playStore: 'https://play.google.com/store/apps/details?id=in.codesaif.todosaif'
+  },
+  {
+    name: 'codepod',
+    description:
+      'A fully functional Flutter-Serverpod app. Developed only using Dart for Frontend as well as Backend.',
+    stack: ['Serverpod', 'API'],
+    sourceCode: 'https://github.com/beSaif/codepod',
+  },
+  {
+    name: 'Medica',
+    description:
+      'Stores user medical records and provides a way to share them with doctors.',
+    stack: ['Work-in-Progress'],
+    sourceCode: 'https://github.com/jumainahkhan/Medica',
+  },
+  {
+    name: 'GetVu',
+    description:
+      'A semi decentralized bus seat networking app.',
+    stack: ['Google Maps', 'http', 'Razorpay'],
+    sourceCode: 'https://github.com/beSaif/GetVu',
+
   },
 ]
 
 const skills = [
   // skills can be added or removed
   // if there are no skills, Skills section won't show up
-  'HTML',
-  'CSS',
-  'JavaScript',
-  'TypeScript',
-  'React',
-  'Redux',
-  'SASS',
-  'Material UI',
-  'Git',
-  'CI/CD',
-  'Jest',
-  'Enzyme',
+  'Flutter',
+  'Dart',
+  'Firebase',
+  'AWS Amplify',
+  'Serverpod',
+  'GetX',
+  'Provider',
+  'Webview',
+  'TensorFlow'
 ]
 
 const contact = {
   // email is optional - if left empty Contact section won't show up
-  email: 'johnsmith@mail.com',
+  email: 'hishamkolikara@gmail.com',
 }
 
 export { header, about, projects, skills, contact }

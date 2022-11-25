@@ -84,20 +84,20 @@ const experience = [  {
   title: 'Flutter Der',
   fromTo: 'Oct 2022 - Present',
   description:
-    'Stores user medical records and provides a way to share them with doctors.',
+    'Developing a Flutter app to embed an already existed webapp and make it more user friendly. Working closely in associating with Mastercard & ICICI.',
 },{
   name: 'GetVu',
   title: 'Senior Flutter Developer',
   fromTo: 'Jul 2022 - Oct 2022',
   description:
-    'Stores user medical records and provides a way to share them with doctors.',
+    'A bus ticket booking app where tickets are NFT Tokens and can be resold to other users. Project is still in development phase.',
 },
 {
   name: 'Articuno Coding',
   title: 'Flutter Developer',
   fromTo: 'Jul 2022 - Oct 2022',
   description:
-    'Stores user medical records and provides a way to share them with doctors.',
+    'A meditation app that plays music based on electrical activity of the brain which is measured using EEG Headset. Project was done for an US based client.'
 },
 {
   name: 'ParadiseWeb',
@@ -105,7 +105,7 @@ const experience = [  {
   fromTo: 'Apr 2022 - Present',
   additional: 'University Project',
   description:
-    'Stores user medical records and provides a way to share them with doctors.',
+    'An social networking app to connect people with similar interests and hobbies.',
 },
 
 {
@@ -114,7 +114,7 @@ const experience = [  {
   fromTo: 'Jun 2022 - Present',
   additional: 'University Project',
   description:
-    'Stores user medical records and provides a way to share them with doctors.',
+    'An event management app to organize, conduct and market all the events conducted in my university.',
 },
 ]
 

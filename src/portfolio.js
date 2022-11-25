@@ -68,6 +68,14 @@ const projects = [
     sourceCode: 'https://github.com/beSaif/GetVu',
 
   },
+  {
+    name: 'and many more',
+    description:
+      'Checkout my Github for more projects.',
+    stack: ['. . .'],
+    sourceCode: 'https://github.com/beSaif/',
+
+  },
   
 ]
 

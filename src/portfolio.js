@@ -12,7 +12,7 @@ const about = {
     '3+ years in Flutter and Dart | 4 Interships | 35+ Projects ',
   resume: 'https://example.com',
   social: {
-    linkedin: 'https://linkedin.com/beSaif',
+    linkedin: 'https://linkedin.com/in/saifudeenhisham/',
     github: 'https://github.com/beSaif',
   },
 }
@@ -61,13 +61,53 @@ const projects = [
     sourceCode: 'https://github.com/jumainahkhan/Medica',
   },
   {
-    name: 'GetVu',
+    name: 'GetVu App',
     description:
       'A semi decentralized bus seat networking app.',
     stack: ['Google Maps', 'http', 'Razorpay'],
     sourceCode: 'https://github.com/beSaif/GetVu',
 
   },
+  
+]
+
+const experience = [  {
+  name: 'HiSave',
+  title: 'Flutter Der',
+  fromTo: 'Oct 2022 - Present',
+  description:
+    'Stores user medical records and provides a way to share them with doctors.',
+},{
+  name: 'GetVu',
+  title: 'Senior Flutter Developer',
+  fromTo: 'Jul 2022 - Oct 2022',
+  description:
+    'Stores user medical records and provides a way to share them with doctors.',
+},
+{
+  name: 'Articuno Coding',
+  title: 'Flutter Developer',
+  fromTo: 'Jul 2022 - Oct 2022',
+  description:
+    'Stores user medical records and provides a way to share them with doctors.',
+},
+{
+  name: 'ParadiseWeb',
+  title: 'Flutter Developer',
+  fromTo: 'Apr 2022 - Present',
+  additional: 'University Project',
+  description:
+    'Stores user medical records and provides a way to share them with doctors.',
+},
+
+{
+  name: 'MD Club',
+  title: 'Flutter Developer',
+  fromTo: 'Jun 2022 - Present',
+  additional: 'University Project',
+  description:
+    'Stores user medical records and provides a way to share them with doctors.',
+},
 ]
 
 const skills = [
@@ -89,4 +129,4 @@ const contact = {
   email: 'hishamkolikara@gmail.com',
 }
 
-export { header, about, projects, skills, contact }
+export { header, about, projects, experience, skills, contact }

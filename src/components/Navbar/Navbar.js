@@ -54,6 +54,18 @@ const Navbar = () => {
             </a>
           </li>
         ) : null}
+
+<li className='nav__list-item'>
+            <a
+              href='https://besaif.github.io/theblog/'
+              onClick={toggleNavList}
+              className='link link--nav'
+              rel="noopener noreferrer"
+              target = '_blank'
+            >
+              blog
+            </a>
+          </li>
       </ul>
 
       <button

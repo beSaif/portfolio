@@ -1,6 +1,6 @@
 const header = {
   // all the properties are optional - can be left empty or deleted
-  homepage: 'https://rajshekhar26.github.io/cleanfolio',
+  homepage: '',
   title: 'Saif.',
 }
 
@@ -10,7 +10,7 @@ const about = {
   role: 'Full Stack Flutter Developer',
   description:
     '3+ years in Flutter and Dart | 4 Interships | 35+ Projects ',
-  resume: 'https://example.com',
+  resume: 'https://linkedin.com/in/saifudeenhisham/',
   social: {
     linkedin: 'https://linkedin.com/in/saifudeenhisham/',
     github: 'https://github.com/beSaif',
